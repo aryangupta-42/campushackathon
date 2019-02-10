@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+  border: 0px;
+}
+body{
+  font-family: raleway;
+}
+
+.title{
+  font-weight:700;
+  font-family: raleway;
+  font-size: 40px;
+  text-align: center;
+  margin-top:80px;
+}
+.cardholder{
+  width:80%;
+  height: auto;
+  background-color: #e6e6e6;
+  padding:20px;
+  margin: auto;
+  margin-top:30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card{
+  width: 26%;
+  min-height:180px;
+  max-height: auto;
+  padding-bottom:30px;
+  line-height: 30px;
+  text-align: center;
+  margin:10px;
+  border:5px solid rgba(0, 0, 0, 0.5);
+}
+.cimg{
+  width:100px;
+  height: 100px;
+  margin: auto;
+  margin-top:20px;
+  background-image: url(../images/man.png);
+  background-size: cover;
+  border-radius: 100%;
+}
+.ctit{
+  margin-top:10px;
+  font-size:21px;
+}

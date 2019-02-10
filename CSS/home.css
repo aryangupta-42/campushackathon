@@ -1,0 +1,102 @@
+*{
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #e6e6e6;
+  font-family: Raleway;
+}
+.upperhalf{
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url(../images/home2.jpg);
+  background-size: cover;
+  background-position:40px -5%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.welcomemsg{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding:20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 38pt;
+  margin-bottom:15px;
+}
+.lowerhalf{
+  display: flex;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.greeting{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  /* background-color: red; */
+}
+.usrmsg{
+  font-size: 20px;
+  margin-top: 20px;
+  line-height:22px;
+  font-weight: 700;
+}
+.usrimg{
+  margin: auto;
+  width:180px;
+  height: 180px;
+  border-radius: 100%;
+  background-image: url(../images/man.png);
+  background-size: cover;
+}
+.submsg{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.vline{
+  width: 6px;
+  height: 200px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+}
+.btncont{
+  width:70%;
+  height:auto;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.btn{
+  margin:15px;
+  width: 200px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition: 0.15s ease-out;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 700;
+
+}
+.btn:hover{
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  border-radius: 20px;
+}
