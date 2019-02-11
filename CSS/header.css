@@ -3,7 +3,7 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  height: 55  px;
+  height: 55px;
   background-color: rgba(0,0,0,0.7);
   color: white;
   font-family: Raleway;
@@ -31,4 +31,29 @@
   height: 20px;
   margin: auto;
   margin-bottom:5px;
+}
+form{
+  outline:none;
+}
+#logout{
+  width:35px;
+  height:35px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: right;
+  background-color: #c0392b;
+  border-radius: 100%;
+  margin-left: 20px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#logico{
+  width:20px;
+  height: 20px;
+  margin-bottom: 3px;
+  margin-right: 0px;
+  background-size: cover;
 }

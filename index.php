@@ -3,6 +3,7 @@
 	if(isset($_SESSION["uid"])){
 		header("Location: Home/index.php");
 	}
+	
  ?>
 <html>
 <head>

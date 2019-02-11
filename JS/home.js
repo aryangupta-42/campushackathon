@@ -11,4 +11,5 @@ $(document).ready(function(){
   $('#search').click(function(){
     window.location.href = "../Search/index.php"
   })
+
 })

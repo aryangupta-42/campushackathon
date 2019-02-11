@@ -9,6 +9,11 @@
   }else{
     header("Location:../index.php");
   }
+  if (isset($_POST['logout'])) {
+      session_unset();
+      session_destroy();
+      header('location:../index.php');
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
